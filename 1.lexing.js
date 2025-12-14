@@ -13,7 +13,7 @@ function getTokenProperties(token) {
     return { type: "Function", value: token };
   }
 
-  if (token === "barabar") {
+  if (token === "equals") {
     return { type: "VariableDeclaration", value: token };
   }
 
